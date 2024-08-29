@@ -1,6 +1,8 @@
 #include "WindowProcedure.h"
 #include "Controller.h"
 
+// WndProc Controller binding technique described here: https://www.songho.ca/opengl/gl_mvc.html#google_vignette
+
 LRESULT Procedure::WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
 	LRESULT returnValue = 0;
