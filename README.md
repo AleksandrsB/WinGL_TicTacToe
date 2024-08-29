@@ -15,7 +15,7 @@ This is a simple Tic-Tac-Toe game implemented in C++ using OpenGL. The game is b
 
 ## Future Plans
 
-This project is part of my Master's thesis and will be developed further with the following enhancements:
+This project will be developed further with the following enhancements:
 
 - **AI Opponent**: 
   - Implement a basic AI using the **Minimax algorithm** with alpha-beta pruning.
