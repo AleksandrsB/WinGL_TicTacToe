@@ -4,5 +4,7 @@ class PlayerAI
 public:
 	PlayerAI();
 	~PlayerAI();
+
+	int calcNextMove();
 };
 
