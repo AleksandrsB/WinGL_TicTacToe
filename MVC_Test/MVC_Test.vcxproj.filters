@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WindowClass.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="WindowProcedure.cpp" />
+    <ClCompile Include="ModelGL.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerGL.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewGL.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowClass.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="WindowProcedure.h" />
+    <ClInclude Include="ModelGL.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerGL.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewGL.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GL">
+      <UniqueIdentifier>{fff1c934-ca1b-4c1b-ba2d-34f6b8084cc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
