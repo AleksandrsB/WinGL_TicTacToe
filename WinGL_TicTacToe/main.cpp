@@ -2,7 +2,7 @@
 #include <GL/gl.h>
 #include "WindowClass.h"
 #include "ControllerGL.h"
-
+#include "AI/PlayerAI.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {

@@ -14,6 +14,9 @@
     <ClCompile Include="ViewGL.cpp">
       <Filter>GL</Filter>
     </ClCompile>
+    <ClCompile Include="AI\PlayerAI.cpp" />
+    <ClCompile Include="AI\MCTS\AI_MCTS.cpp" />
+    <ClCompile Include="AI\Minimax\AI_Minimax.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowClass.h" />
@@ -28,6 +31,9 @@
     <ClInclude Include="ViewGL.h">
       <Filter>GL</Filter>
     </ClInclude>
+    <ClInclude Include="AI\PlayerAI.h" />
+    <ClInclude Include="AI\MCTS\AI_MCTS.h" />
+    <ClInclude Include="AI\Minimax\AI_Minimax.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="GL">

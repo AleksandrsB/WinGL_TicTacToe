@@ -129,18 +129,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AI\MCTS\AI_MCTS.cpp" />
+    <ClCompile Include="AI\Minimax\AI_Minimax.cpp" />
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="ControllerGL.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ModelGL.cpp" />
+    <ClCompile Include="AI\PlayerAI.cpp" />
     <ClCompile Include="ViewGL.cpp" />
     <ClCompile Include="WindowClass.cpp" />
     <ClCompile Include="WindowProcedure.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AI\MCTS\AI_MCTS.h" />
+    <ClInclude Include="AI\Minimax\AI_Minimax.h" />
     <ClInclude Include="Controller.h" />
     <ClInclude Include="ControllerGL.h" />
     <ClInclude Include="ModelGL.h" />
+    <ClInclude Include="AI\PlayerAI.h" />
     <ClInclude Include="ViewGL.h" />
     <ClInclude Include="WindowClass.h" />
     <ClInclude Include="WindowProcedure.h" />
